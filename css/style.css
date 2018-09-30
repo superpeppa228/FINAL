@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800');
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?5040357');
+    src: url('../font/fontello.eot?5040357#iefix') format('embedded-opentype'), url('../font/fontello.woff2?5040357') format('woff2'), url('../font/fontello.woff?5040357') format('woff'), url('../font/fontello.ttf?5040357') format('truetype'), url('../font/fontello.svg?5040357#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../img/menubcgrnd.img.jpg);
+}
+
+.upper {
+    display: block;
+    padding-bottom: 381px;
+}
+
+.logo img {
+    display: block;
+    float: left;
+    margin-left: 376px;
+    margin-top: 40px;
+}
+
+.logo p {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 34px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: right;
+    display: block;
+    float: left;
+    margin-top: 50px;
+}
+
+.mainmenu {
+    display: block;
+    float: left;
+    margin-top: 60px;
+    margin-left: 204px;
+}
+
+.mainmenu li {
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+}
+
+.mainmenu li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+}
+
+.mainmenu li a:hover {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #c7b29a;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+}
+
+.icons img {
+    display: inline-block;
+    float: left;
+    margin-top: 55px;
+    padding: 0 14px 0 14px;
+    margin-left: 34px;
+}
+
+.headtext {
+    display: block;
+    margin: 0 auto;
+    width: 589px;
+    text-align: center;
+}
+
+.headtext h2 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+}
+
+.headtext h1 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 52px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.headtext p {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    margin-bottom: 52px;
+}
+
+.headtext a {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 1px solid #998675;
+    padding: 15px 0 15px 0;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 23px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.headtext a:hover {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 1px solid #998675;
+    padding: 15px 0 15px 0;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 23px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    background-color: #998675;
+}
+
+.headtext img {
+    display: block;
+    margin: 329px auto 0 auto;
+    padding-bottom: 32px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 215px 100px 215px;
+    text-align: center;
+}
+
+.flex-container h3 {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    padding: 29px 0 20px 0;
+    background-image:
+}
+
+.flex-container h3:hover {
+    font-family: Raleway;
+    color: #c7b299;
+    font-size: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    padding: 29px 0 20px 0;
+}
+
+.flex-container p {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 52px;
+    color: #555555;
+}
+
+.item1:before {
+    content: "\E802";
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 52px;
+    color: #555555;
+}
+
+.item1:hover:before {
+    color: #c7b299;
+}
+
+.item2:before {
+    content: "\E803";
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 52px;
+    color: #555555;
+}
+
+.item2:hover:before {
+    color: #c7b299;
+}
+
+.item3:before {
+    content: "\E805";
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 52px;
+    color: #555555;
+}
+
+.item3:hover:before {
+    color: #c7b299;
+}
+
+.item4:before {
+    content: "\F4C2";
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 52px;
+    color: #555555;
+}
+
+.item4:hover:before {
+    color: #c7b299;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    margin: 0 15px 0 15px;
+}
+
+.flex-container hr {
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 2px;
+}
+
+.flex-container hr:hover {
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 2px;
+    background-color: #c7b299;
+}
+
+.preview {
+    background-color: #fbfaf8;
+    display: block;
+    padding-bottom: 482px;
+    position: relative;
+}
+
+.preview h2 {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+    padding-top: 83px;
+}
+
+.preview p {
+    display: block;
+    width: 757px;
+    margin: 0 auto;
+    padding-top: 24px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.centerimg {
+    display: block;
+    width: 770px;
+    height: 482px;
+    margin-left: 576px;
+    position: absolute;
+    z-index: 3;
+}
+
+.leftimg {
+    display: block;
+    width: 770px;
+    height: 400px;
+    margin-left: 346px;
+    margin-top: 82px;
+    position: absolute;
+    z-index: 2;
+}
+
+.rightimg {
+    display: block;
+    width: 770px;
+    height: 400px;
+    margin-left: 806px;
+    margin-top: 82px;
+    position: absolute;
+    z-index: 1;
+}
+
+.purchasenow {
+    display: block;
+    height: 150px;
+    background-image: url(../img/Backgroundbrown.img.jpg);
+}
+
+.textleft {
+    display: block;
+    float: left;
+    margin-left: 376px;
+    width: 530px;
+    padding-top: 48px;
+    padding-bottom: 49px;
+}
+
+.textleft h2 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+}
+
+.textleft p {
+    font-family: Montserrat;
+    color: #615855;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+}
+
+.purchasenow a {
+    display: block;
+    float: left;
+    margin-left: 440px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 23px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding: 19px 29px;
+    outline: 1px solid #998675;
+}
+
+.purchasenow a:hover {
+    display: block;
+    float: left;
+    margin-left: 440px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+    color: #ffffff;
+    background-color: #998675;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 23px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding: 19px 29px;
+    outline: 1px solid #998675;
+}
+
+.projects h2 {
+    display: block;
+    margin: 0 auto;
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+    padding-top: 81px;
+}
