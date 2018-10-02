@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-image: url(../img/menubcgrnd.img.jpg);
+    background-image: url(/img/menubcgrnd.img.jpg);
 }
 
 .upper {
