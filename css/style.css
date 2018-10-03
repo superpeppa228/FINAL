@@ -169,7 +169,7 @@ header {
     padding-bottom: 32px;
 }
 
-.flex-container {
+.icons .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -178,17 +178,16 @@ header {
     text-align: center;
 }
 
-.flex-container h3 {
+.icons .flex-container h3 {
     font-family: Raleway;
     color: #555555;
     font-size: 22px;
     /* Приближение из-за подстановки шрифтов */
     font-weight: 600;
     padding: 29px 0 20px 0;
-    background-image:
 }
 
-.flex-container h3:hover {
+.icons .flex-container h3:hover {
     font-family: Raleway;
     color: #c7b299;
     font-size: 22px;
@@ -197,7 +196,7 @@ header {
     padding: 29px 0 20px 0;
 }
 
-.flex-container p {
+.icons .flex-container p {
     font-family: Montserrat;
     color: #8c8c8c;
     font-size: 14px;
@@ -280,14 +279,14 @@ header {
     margin: 0 15px 0 15px;
 }
 
-.flex-container hr {
+.icons .flex-container hr {
     width: 70px;
     margin: 0 auto;
     margin-top: 30px;
     padding-bottom: 2px;
 }
 
-.flex-container hr:hover {
+.icons .flex-container hr:hover {
     width: 70px;
     margin: 0 auto;
     margin-top: 30px;
@@ -327,7 +326,6 @@ header {
     text-align: center;
     padding-bottom: 40px;
 }
-
 
 .centerimg {
     display: block;
@@ -430,6 +428,11 @@ header {
     outline: 1px solid #998675;
 }
 
+.projects {
+    display: block;
+    padding-bottom: 880px;
+}
+
 .projects h2 {
     display: block;
     margin: 0 auto;
@@ -440,4 +443,273 @@ header {
     font-weight: 600;
     text-align: center;
     padding-top: 81px;
+    padding-bottom: 20px;
+}
+
+.projects p {
+    display: block;
+    margin: 0 auto;
+    width: 790px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.projmenu {
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.projmenu li {
+    display: inline-block;
+}
+
+.projmenu li a {
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    outline: 1px solid #8c8c8c;
+    margin-left: 20px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+}
+
+.projmenu li a:hover {
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    outline: 1px solid #8c8c8c;
+    margin-left: 20px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+    background-color: #998675
+}
+
+.gallery {
+    display: block;
+    margin-left: 376px;
+    margin-right: 374px;
+}
+
+.proj1,
+.proj2,
+.proj3,
+.proj4,
+.proj5,
+.proj6 {
+    display: block;
+    float: left;
+    width: 370px;
+}
+
+.speech:hover {
+    background-color: #362f2d;
+}
+
+.proj1 {
+    background-image: url(../img/project1.img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fbfaf8;
+}
+
+.afterhover {
+    display: block;
+    float: left;
+    width: 370px;
+    height: 237px;
+}
+
+.afterhover:hover {
+    display: block;
+    float: left;
+    width: 370px;
+    height: 237px;
+    background: black;
+    opacity: 0.5;
+}
+
+.proj2 {
+    background-image: url(../img/project2.img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fbfaf8;
+    margin-left: 30px;
+}
+
+.proj3 {
+    background-image: url(../img/project3.img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fbfaf8;
+    margin-left: 30px;
+}
+
+.proj4 {
+    background-image: url(../img/project4.img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fbfaf8;
+    margin-top: 30px;
+}
+
+.proj5 {
+    background-image: url(../img/project5.img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fbfaf8;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.proj6 {
+    background-image: url(../img/project6.img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fbfaf8;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.speech h3 {
+    display: block;
+    float: left;
+    font-family: Raleway;
+    color: #c7b29a;
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+
+.speech {
+    display: block;
+    height: 100px;
+    margin-top: 237px;
+    position: relative;
+}
+
+.speech:before {
+    content: "";
+    border: 20px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    left: 19px;
+    top: -28px;
+}
+
+.speech:hover:before {
+    content: "";
+    border: 20px solid transparent;
+    border-bottom: 10px solid #362f2d;
+    position: absolute;
+    left: 19px;
+    top: -28px;
+}
+
+.speech p {
+    display: block;
+    float: left;
+    font-family: Montserrat;
+    color: #d1d1d1;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 28px;
+}
+
+.gallery a {
+    display: block;
+    float: left;
+    margin-left: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    outline: 1px solid #998675;
+    padding: 19px 44px 19px 44px;
+    margin-top: 40px;
+    color: #998675;
+    margin-bottom: 80px;
+}
+
+.gallery a:hover {
+    display: block;
+    float: left;
+    margin-left: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    outline: 1px solid #998675;
+    padding: 19px 44px 19px 44px;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #998675;
+    margin-bottom: 80px;
+}
+
+.video {
+    display: block;
+    background-image: url(../img/video.img.jpg);
+    padding-bottom: 705px;
+}
+
+.video a {
+    display: block;
+    float: left;
+    margin-left: 911px;
+    margin-top: 210px;
+}
+
+.video h2 {
+    display: block;
+    margin-top: 44px;
+    margin-left: 768px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    text-align: center;
+    float: left;
+}
+
+.video p {
+    display: block;
+    width: 552px;
+    float: left;
+    margin-left: 683px;
+    margin-top: 29px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
 }
