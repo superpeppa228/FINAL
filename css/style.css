@@ -634,6 +634,7 @@ header {
     font-family: Montserrat;
     color: #d1d1d1;
     font-size: 14px;
+    
     /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
     line-height: 20px;
