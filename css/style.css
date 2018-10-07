@@ -39,7 +39,7 @@ header {
     margin-top: 40px;
 }
 
-.logo p {
+.logo span a {
     font-family: Raleway;
     color: #ffffff;
     font-size: 34px;
@@ -49,6 +49,7 @@ header {
     display: block;
     float: left;
     margin-top: 50px;
+    text-decoration: none;
 }
 
 .mainmenu {
@@ -83,12 +84,20 @@ header {
     text-align: left;
 }
 
-.icons img {
-    display: inline-block;
+.icons:before {
+    display: block;
     float: left;
+    content: url(../img/icon-basket.img.png);
     margin-top: 55px;
-    padding: 0 14px 0 14px;
-    margin-left: 34px;
+    margin-left: 20px;
+}
+
+.icons:after {
+    display: block;
+    float: left;
+    content: url(../img/icon-search.img.png);
+    margin-top: 55px;
+    margin-left: 28px;
 }
 
 .headtext {
@@ -187,13 +196,20 @@ header {
     padding: 29px 0 20px 0;
 }
 
-.icons .flex-container h3:hover {
-    font-family: Raleway;
+.item1:hover h3 {
     color: #c7b299;
-    font-size: 22px;
-    /* Приближение из-за подстановки шрифтов */
-    font-weight: 600;
-    padding: 29px 0 20px 0;
+}
+
+.item2:hover h3 {
+    color: #c7b299;
+}
+
+.item3:hover h3 {
+    color: #c7b299;
+}
+
+.item4:hover h3 {
+    color: #c7b299;
 }
 
 .icons .flex-container p {
@@ -230,6 +246,20 @@ header {
     color: #c7b299;
 }
 
+.item1:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.item1:hover:after {
+    background-color: #c7b299;
+}
+
 .item2:before {
     content: "\E803";
     font-family: "fontello";
@@ -242,6 +272,20 @@ header {
 
 .item2:hover:before {
     color: #c7b299;
+}
+
+.item2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.item2:hover:after {
+    background-color: #c7b299;
 }
 
 .item3:before {
@@ -258,6 +302,20 @@ header {
     color: #c7b299;
 }
 
+.item3:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.item3:hover:after {
+    background-color: #c7b299;
+}
+
 .item4:before {
     content: "\F4C2";
     font-family: "fontello";
@@ -270,6 +328,20 @@ header {
 
 .item4:hover:before {
     color: #c7b299;
+}
+
+.item4:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.item4:hover:after {
+    background-color: #c7b299;
 }
 
 .item1,
@@ -532,6 +604,34 @@ header {
     float: left;
     width: 370px;
     height: 237px;
+    position: relative;
+}
+
+.afterhover:hover:before {
+    content: "\E806";
+    font-family: "fontello";
+    color: #c7b299;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 36px;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    filter: saturate(30%);
+}
+
+.afterhover:hover:after {
+    content: "\E807";
+    font-family: "fontello";
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-size: 29px;
+    position: absolute;
+    top: 40%;
+    left: 52%;
 }
 
 .afterhover:hover {
@@ -634,7 +734,6 @@ header {
     font-family: Montserrat;
     color: #d1d1d1;
     font-size: 14px;
-    
     /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
     line-height: 20px;
@@ -713,4 +812,232 @@ header {
     line-height: 28px;
     /* Приближение из-за подстановки шрифтов */
     text-align: center;
+}
+
+.timing {
+    display: block;
+}
+
+.timing p {
+    color: #c7b299;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.mobile {
+    display: block;
+    position: relative;
+    padding-bottom: 695px;
+}
+
+.mobile img {
+    display: block;
+    float: left;
+    margin-left: 423px;
+    margin-top: 79px;
+}
+
+.mobiletext {
+    display: block;
+    margin-top: 195px;
+    margin-left: 877px;
+    width: 680px;
+    position: absolute;
+}
+
+.mobile h2 {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: left;
+}
+
+.mobile p {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 40px;
+}
+
+.mobiletext ul {
+    display: block;
+    margin-top: 45px;
+    margin-left: 100px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 32px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    list-style-image: url(../img/markerimg.img.png);
+    padding-bottom: 120px;
+    width: 680px;
+}
+
+.mobiletext ul li {
+    margin-top: 5px;
+}
+
+.achievements {
+    display: block;
+    background-image: url(../img/achievementsback.img.jpg);
+}
+
+.achievements .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 215px 100px 215px;
+    text-align: center;
+}
+
+.clients,
+.coffee,
+.publications,
+.likes,
+.launch {
+    margin: 69px 73px 60px 73px;
+}
+
+.clients:before {
+    display: block;
+    content: url(../img/ppl.img.png);
+}
+
+.clients:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.coffee:before {
+    display: block;
+    content: url(../img/coffee.img.png);
+}
+
+.coffee:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.publications:before {
+    display: block;
+    content: url(../img/message.img.png);
+}
+
+.publications:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.likes:before {
+    display: block;
+    content: url(../img/heart.img.png);
+}
+
+.likes:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.launch:before {
+    display: block;
+    content: url(../img/food.img.png);
+}
+
+.launch:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 30px auto 0 auto;
+    align-self: flex-end;
+}
+
+.achievements .flex-container h3 {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 200;
+    line-height: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.achievements .flex-container p {
+    font-family: Montserrat;
+    color: #c7b299;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.posts {
+    display: block;
+}
+
+.posts h2 {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+}
+
+.posts p {
+    display: block;
+    width: 757px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-left: 583px;
+    padding-top: 24px;
+    padding-bottom: 40px;
 }
