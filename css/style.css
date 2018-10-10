@@ -1036,10 +1036,22 @@ background-color: #362f2d;
 .example3:hover{
 background-color: #362f2d;
     }
-.speech2:hover p{
+.example1:hover p{
 color:  #ffffff;
 }
-.speech2:hover h3{
+.example1:hover h3{
+color:  #c7b299;
+}
+.example2:hover p{
+color:  #ffffff;
+}
+.example2:hover h3{
+color:  #c7b299;
+}
+.example3:hover p{
+color:  #ffffff;
+}
+.example3:hover h3{
 color:  #c7b299;
 }
 .exheader img:hover{
