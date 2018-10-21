@@ -39,7 +39,7 @@ header {
     margin-top: 40px;
 }
 
-.logo span a {
+.logo span{
     display:block;
     width:120px;
     font-family: Raleway;
@@ -156,24 +156,8 @@ header {
 }
 
 .headtext a:hover {
-    display: block;
-    width: 170px;
-    margin: 0 auto;
-    text-transform: uppercase;
-    text-decoration: none;
-    outline: 1px solid #998675;
-    padding: 15px 0 15px 0;
-    font-family: Raleway;
-    color: #ffffff;
-    font-size: 14px;
-    /* Приближение из-за подстановки шрифтов */
-    font-weight: 700;
-    line-height: 23px;
-    /* Приближение из-за подстановки шрифтов */
-    text-align: center;
     background-color: #998675;
 }
-
 .headtext img {
     display: block;
     margin: 329px auto 0 auto;
@@ -1681,7 +1665,7 @@ footer {
     }
     .footerup{
         width:100%;
-        padding-bottom:1200px;
+        padding-bottom:1150px;
     }
     .compinfo{
         width:100%;
@@ -1709,7 +1693,20 @@ footer {
     .bottom{
         width:100%;
         margin:auto;
-        padding-bottom:200px;
+        padding-bottom:350px;
+    }
+    .twi{
+        width:100%;
+        margin:auto;
+    }
+    .twi .twit{
+        margin-left:30px;
+    }
+    .twi h3{
+        margin-left:30px;
+    }
+    .bottommenu{
+        width:350px;
     }
     .bottommenu p{
         width:100%;
@@ -1718,6 +1715,23 @@ footer {
         padding-bottom:10px;
     }
     .bottommenu ul{
+        width:100%;
+        margin:auto;
+        float:left;
+        display:block;
+        padding-top:10px;
+        margin-left:25px;
+    }
+    .bottominfo{
+        display:block;
+        width:350px;
+        padding-top:85px;
+        padding-right:0px;
+    }
+    .widget h3{
+        margin-left:30px;
+    }
+    .widget{
         width:100%;
         margin:auto;
     }
@@ -1732,7 +1746,7 @@ footer {
     .mainmenu{
         display:block;
         float:left;
-        margin-left:50px;
+        margin-left:100px;
     }
     .headtext{
         width:100%;
@@ -1751,30 +1765,28 @@ footer {
     }
     .preview{
         display:block;
-        padding-bottom:700px;
+        padding-bottom:650px;
     }
     .leftimg{
         margin:auto;
     }
     .leftimg img{
-        width:40%;
-        margin-left:20px;
+        width:45%;
     }
     .centerimg{
         margin:auto;
         margin-top:200px;
     }
     .centerimg img{
-      width:40%;
-      margin-left:20px;
+      width:45%;
     }
     .rightimg{
         margin:auto;
-        margin-top:460px;
+        margin-top:430px;
     }
     .rightimg img{
-      width:40%;
-      margin-left:20px;
+      width:45%;
+        
     }
     .preview{
         width:100%;
@@ -1798,7 +1810,7 @@ footer {
     .purchasenow a{
         display:block;
         float:left;
-        margin-left:100px;
+        margin-left:80px;
         margin-top:10px;
     }
     .projects h2{
@@ -1919,7 +1931,7 @@ footer {
     }
     .footerup{
         width:100%;
-        padding-bottom:1650px;
+        padding-bottom:1800px;
     }
     .compinfo{
         width:100%;
@@ -1958,5 +1970,17 @@ footer {
     .bottommenu ul{
         width:100%;
         margin:auto;
+    }
+
+    .widget{
+        width:90%;
+        margin:auto;
+        margin-left:30px;
+    }
+    .twit{
+        width:80%; 
+    }
+    .footerposts{
+        width:80%;
     }
 }
