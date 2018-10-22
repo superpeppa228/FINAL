@@ -31,17 +31,18 @@ header {
     display: block;
     padding-bottom: 381px;
 }
+
 .logo img {
     display: block;
-    height:50px;
+    height: 50px;
     float: left;
     margin-left: 376px;
     margin-top: 40px;
 }
 
-.logo span{
-    display:block;
-    width:120px;
+.logo span {
+    display: block;
+    width: 120px;
     font-family: Raleway;
     color: #ffffff;
     font-size: 34px;
@@ -158,6 +159,7 @@ header {
 .headtext a:hover {
     background-color: #998675;
 }
+
 .headtext img {
     display: block;
     margin: 329px auto 0 auto;
@@ -1293,6 +1295,7 @@ footer {
     text-align: left;
     text-decoration: none;
 }
+
 .footerposts:hover time {
     color: #ffffff;
 }
@@ -1394,7 +1397,7 @@ footer {
 
 .bottom {
     display: block;
-    padding-bottom:111px;
+    padding-bottom: 111px;
     background-color: #111111;
 }
 
@@ -1474,513 +1477,514 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
 }
-.bottominfo li a:hover {
-    color:  #959595;
-}
-@media screen and (min-width:480px) and (max-width:800px){
-    .container{
-        width:100%;
-    }
-    .header{
-        width:100%;
-    }
-    .mainmenu{
-        display:block;
-        float:left;
-    }
-    .logo{
-        display:block;
-        float:left;
-        width:500px;
-    }
-    .mainmenu li{
-    display:block;
-        }
-    .logo img{
-        margin-left:260px;
-    }
-    .icons .flex-container{
-        display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .preview{
-        display:block;
-        padding-bottom:1300px;
-        width:100%;
-    }
-    .leftimg{
-        margin:auto;
-    }
-    .centerimg{
-        margin:auto;
-        margin-top:400px;
-    }
-    .rightimg{
-        margin:auto;
-        margin-top:880px;
-    }
-    .purchasenow{
-        width:100%;
-    }
-    .textleft{
-     margin:auto;
-        float:left;
-        margin-left:10px;
-        display:block;
-        float:left;
-    }
-    .purchasenow a{
-        display:block;
-        float:left;
-        margin-left:20px;
-    }
-        .projects h2{
-        width:100%;
-    }
-    .projects p{
-        width:100%;
-    }
-    .projmenu ul li{
-        display:block;
-        margin:30px;
-    }
-    .gallery{
-        margin:auto;
-        padding-bottom:300px;
-    }
-    .proj1{
-        margin-left:0px;
-        margin-bottom:30px;
-        margin-left:20px;
-    }
-    .proj2{
-        margin-left:0px;
-        margin-bottom:30px;
-    }
-    .proj3{
-        margin-left:0;
-        margin-bottom:0;
-        margin-left:20px;
-    }
-    .proj4{
-        margin-top:0;
-        margin-left:0;
-        margin-bottom:0;
-    }
-    .proj5{
-        margin-left:0;
-        margin-left:20px;
-    }
-    .proj6{
-        margin-left:0;
-        margin-bottom:30px;
-    }
-    .gallery a{
-        margin:auto;
-        margin-left:300px;
-    }
-    .video{
-        display:block;
-        width:100%;
-        margin:auto;
-    }
-    .video a{
-        margin:auto;
-        margin-top:250px;
-        margin-left:330px;
-    }
-    .video h2{
-        margin:auto;
-        margin-top:100px;
-        width:100%;
-    }
-    .video p{
-        width:100%;
-        margin:auto;
-    }
-    .mobile{
-        width:100%;
-        margin:auto;
-        padding-bottom:1600px;
-    }
-    .mobile img{
-        width:100%;
-        margin:auto;
-        display:block;
-        float:left;
-    }
-    .mobiletext{
-        width:100%;
-        margin:auto;
-    }
-    .mobiletext h2{
-        margin-top:1150px;
-        margin-left:20px;
-    }
-        .mobiletext p{
-        margin-left:20px;
-    }
-    .mobiletext ul{
-        margin-left:50px;
-        width:100%;
-    }
-    .achievements{
-        width:100%;
-        margin:auto;
-    }
-    .achievements .flex-container{
-         display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .posts{
-        width:100%;
-        margin:auto;
-    }
-    .posts p{
-        margin:auto;
-        width:100%;
-    }
-    .postsexamples .flex-container{
-         display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .partners{
-        margin:auto;
-        width:100%;
-    }
-    .partners .flex-container{
-        display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .partners .flex-container a{
-        margin-bottom:20px;
-    }
-    .footer{
-        width:100%;
-        margin:auto;
-    }
-    .footerup{
-        width:100%;
-        padding-bottom:1150px;
-    }
-    .compinfo{
-        width:100%;
-        margin:auto;
-    }
-    .logo2{
-        margin-left:30px;
-    }
-    .compinfo p{
-        margin-left:30px;
-    }
-    .more a{
-        margin-left:30px;
-    }
-    .recentposts{
-        width:100%;
-        margin:auto;
-    }
-    .recentposts h3{
-        margin-left:30px;
-    }
-    .footerposts{
-        margin-left:30px;
-    }
-    .bottom{
-        width:100%;
-        margin:auto;
-        padding-bottom:350px;
-    }
-    .twi{
-        width:100%;
-        margin:auto;
-    }
-    .twi .twit{
-        margin-left:30px;
-    }
-    .twi h3{
-        margin-left:30px;
-    }
-    .bottommenu{
-        width:350px;
-    }
-    .bottommenu p{
-        width:100%;
-        margin:auto;
-        margin-left:30px;
-        padding-bottom:10px;
-    }
-    .bottommenu ul{
-        width:100%;
-        margin:auto;
-        float:left;
-        display:block;
-        padding-top:10px;
-        margin-left:25px;
-    }
-    .bottominfo{
-        display:block;
-        width:350px;
-        padding-top:85px;
-        padding-right:0px;
-    }
-    .widget h3{
-        margin-left:30px;
-    }
-    .widget{
-        width:100%;
-        margin:auto;
-    }
-}
-@media screen and (max-width: 479px) {
- .container{
-        width:100%;
-    }
-    .header{
-        width:100%;
-    }
-    .mainmenu{
-        display:block;
-        float:left;
-        margin-left:100px;
-    }
-    .headtext{
-        width:100%;
-        margin-top:80px;
-    }
-    .mainmenu li{
-    display:block;
-        }
-    .logo img{
-        margin-left:90px;
-    }
-    .icons .flex-container{
-        display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .preview{
-        display:block;
-        padding-bottom:650px;
-    }
-    .leftimg{
-        margin:auto;
-    }
-    .leftimg img{
-        width:45%;
-    }
-    .centerimg{
-        margin:auto;
-        margin-top:200px;
-    }
-    .centerimg img{
-      width:45%;
-    }
-    .rightimg{
-        margin:auto;
-        margin-top:430px;
-    }
-    .rightimg img{
-      width:45%;
-        
-    }
-    .preview{
-        width:100%;
-    }
-    .preview p{
-        display:block;
-        width:100%;
-    }
-    .purchasenow{
-        width:100%;
-        padding-bottom:150px;
-    }
-    .textleft{
-     margin:auto;
-        float:left;
-        margin-left:10px;
-        display:block;
-        float:left;
-        width:100%;
-    }
-    .purchasenow a{
-        display:block;
-        float:left;
-        margin-left:80px;
-        margin-top:10px;
-    }
-    .projects h2{
-        width:100%;
-    }
-    .projects p{
-        width:100%;
-    }
-    .projmenu ul li{
-        display:block;
-        margin:30px;
-    }
-    .gallery{
-        margin:auto;
-        padding-bottom:1400px;
-    }
-    .proj1{
-        margin-left:0px;
-        margin-bottom:30px;
-    }
-    .proj2{
-        margin-left:0px;
-        margin-bottom:30px;
-    }
-    .proj3{
-        margin-left:0;
-        margin-bottom:0;
-    }
-    .proj4{
-        margin-left:0;
-        margin-bottom:0;
-    }
-    .proj5{
-        margin-left:0;
-    }
-    .proj6{
-        margin-left:0;
-        margin-bottom:30px;
-    }
-    .gallery a{
-        margin:auto;
-        margin-left:100px;
-    }
-    .video{
-        display:block;
-        width:100%;
-        margin:auto;
-    }
-    .video a{
-        margin-left:130px;
-    }
-    .video h2{
-        margin:auto;
-    }
-    .video p{
-        width:100%;
-        margin:auto;
-    }
-    .mobile{
-        width:100%;
-        margin:auto;
-        padding-bottom:1200px;
-    }
-    .mobile img{
-        width:100%;
-        margin:auto;
-        display:block;
-        float:left;
-    }
-    .mobiletext{
-        width:100%;
-        margin:auto;
-    }
-    .mobiletext h2{
-        margin-top:600px;
-    }
-    .mobiletext ul{
-        margin-left:30px;
-        width:100%;
-    }
-    .achievements{
-        width:100%;
-        margin:auto;
-    }
-    .achievements .flex-container{
-         display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .posts{
-        width:100%;
-        margin:auto;
-    }
-    .posts p{
-        margin:auto;
-        width:100%;
-    }
-    .postsexamples .flex-container{
-         display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .partners{
-        margin:auto;
-        width:100%;
-    }
-    .partners .flex-container{
-        display:flex;
-        flex-direction: column;
-        margin:0 auto;
-    }
-    .partners .flex-container a{
-        margin-bottom:20px;
-    }
-    .footer{
-        width:100%;
-        margin:auto;
-    }
-    .footerup{
-        width:100%;
-        padding-bottom:1800px;
-    }
-    .compinfo{
-        width:100%;
-        margin:auto;
-    }
-    .logo2{
-        margin-left:30px;
-    }
-    .compinfo p{
-        margin-left:30px;
-    }
-    .more a{
-        margin-left:30px;
-    }
-    .recentposts{
-        width:100%;
-        margin:auto;
-    }
-    .recentposts h3{
-        margin-left:30px;
-    }
-    .footerposts{
-        margin-left:30px;
-    }
-    .bottom{
-        width:100%;
-        margin:auto;
-        padding-bottom:200px;
-    }
-    .bottommenu p{
-        width:100%;
-        margin:auto;
-        margin-left:30px;
-        padding-bottom:10px;
-    }
-    .bottommenu ul{
-        width:100%;
-        margin:auto;
-    }
 
-    .widget{
-        width:90%;
-        margin:auto;
-        margin-left:30px;
+.bottominfo li a:hover {
+    color: #959595;
+}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+    .container {
+        width: 100%;
     }
-    .twit{
-        width:80%; 
+    .header {
+        width: 100%;
     }
-    .footerposts{
-        width:80%;
+    .mainmenu {
+        display: block;
+        float: left;
+    }
+    .logo {
+        display: block;
+        float: left;
+        width: 500px;
+    }
+    .mainmenu li {
+        display: block;
+    }
+    .logo img {
+        margin-left: 260px;
+    }
+    .icons .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .preview {
+        display: block;
+        padding-bottom: 1300px;
+        width: 100%;
+    }
+    .leftimg {
+        margin: auto;
+    }
+    .centerimg {
+        margin: auto;
+        margin-top: 400px;
+    }
+    .rightimg {
+        margin: auto;
+        margin-top: 880px;
+    }
+    .purchasenow {
+        width: 100%;
+    }
+    .textleft {
+        margin: auto;
+        float: left;
+        margin-left: 10px;
+        display: block;
+        float: left;
+    }
+    .purchasenow a {
+        display: block;
+        float: left;
+        margin-left: 20px;
+    }
+    .projects h2 {
+        width: 100%;
+    }
+    .projects p {
+        width: 100%;
+    }
+    .projmenu ul li {
+        display: block;
+        margin: 30px;
+    }
+    .gallery {
+        margin: auto;
+        padding-bottom: 300px;
+    }
+    .proj1 {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .proj2 {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .proj3 {
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+    .proj4 {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .proj5 {
+        margin-left: 0;
+        margin-left: 20px;
+    }
+    .proj6 {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .gallery a {
+        margin: auto;
+        margin-left: 300px;
+    }
+    .video {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .video a {
+        margin: auto;
+        margin-top: 250px;
+        margin-left: 330px;
+    }
+    .video h2 {
+        margin: auto;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .video p {
+        width: 100%;
+        margin: auto;
+    }
+    .mobile {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 1600px;
+    }
+    .mobile img {
+        width: 100%;
+        margin: auto;
+        display: block;
+        float: left;
+    }
+    .mobiletext {
+        width: 100%;
+        margin: auto;
+    }
+    .mobiletext h2 {
+        margin-top: 1150px;
+        margin-left: 20px;
+    }
+    .mobiletext p {
+        margin-left: 20px;
+    }
+    .mobiletext ul {
+        margin-left: 50px;
+        width: 100%;
+    }
+    .achievements {
+        width: 100%;
+        margin: auto;
+    }
+    .achievements .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .posts {
+        width: 100%;
+        margin: auto;
+    }
+    .posts p {
+        margin: auto;
+        width: 100%;
+    }
+    .postsexamples .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .partners {
+        margin: auto;
+        width: 100%;
+    }
+    .partners .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .partners .flex-container a {
+        margin-bottom: 20px;
+    }
+    .footer {
+        width: 100%;
+        margin: auto;
+    }
+    .footerup {
+        width: 100%;
+        padding-bottom: 1150px;
+    }
+    .compinfo {
+        width: 100%;
+        margin: auto;
+    }
+    .logo2 {
+        margin-left: 30px;
+    }
+    .compinfo p {
+        margin-left: 30px;
+    }
+    .more a {
+        margin-left: 30px;
+    }
+    .recentposts {
+        width: 100%;
+        margin: auto;
+    }
+    .recentposts h3 {
+        margin-left: 30px;
+    }
+    .footerposts {
+        margin-left: 30px;
+    }
+    .bottom {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 350px;
+    }
+    .twi {
+        width: 100%;
+        margin: auto;
+    }
+    .twi .twit {
+        margin-left: 30px;
+    }
+    .twi h3 {
+        margin-left: 30px;
+    }
+    .bottommenu {
+        width: 350px;
+    }
+    .bottommenu p {
+        width: 100%;
+        margin: auto;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+    .bottommenu ul {
+        width: 100%;
+        margin: auto;
+        float: left;
+        display: block;
+        padding-top: 10px;
+        margin-left: 25px;
+    }
+    .bottominfo {
+        display: block;
+        width: 350px;
+        padding-top: 85px;
+        padding-right: 0px;
+    }
+    .widget h3 {
+        margin-left: 30px;
+    }
+    .widget {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .mainmenu {
+        display: block;
+        float: left;
+        margin-left: 100px;
+    }
+    .headtext {
+        width: 100%;
+        margin-top: 80px;
+    }
+    .mainmenu li {
+        display: block;
+    }
+    .logo img {
+        margin-left: 90px;
+    }
+    .icons .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .preview {
+        display: block;
+        padding-bottom: 650px;
+    }
+    .leftimg {
+        margin: auto;
+    }
+    .leftimg img {
+        width: 45%;
+    }
+    .centerimg {
+        margin: auto;
+        margin-top: 200px;
+    }
+    .centerimg img {
+        width: 45%;
+    }
+    .rightimg {
+        margin: auto;
+        margin-top: 430px;
+    }
+    .rightimg img {
+        width: 45%;
+    }
+    .preview {
+        width: 100%;
+    }
+    .preview p {
+        display: block;
+        width: 100%;
+    }
+    .purchasenow {
+        width: 100%;
+        padding-bottom: 150px;
+    }
+    .textleft {
+        margin: auto;
+        float: left;
+        margin-left: 10px;
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    .purchasenow a {
+        display: block;
+        float: left;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .projects h2 {
+        width: 100%;
+    }
+    .projects p {
+        width: 100%;
+    }
+    .projmenu ul li {
+        display: block;
+        margin: 30px;
+    }
+    .gallery {
+        margin: auto;
+        padding-bottom: 1400px;
+    }
+    .proj1 {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .proj2 {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .proj3 {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .proj4 {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .proj5 {
+        margin-left: 0;
+    }
+    .proj6 {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .gallery a {
+        margin: auto;
+        margin-left: 100px;
+    }
+    .video {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .video a {
+        margin-left: 130px;
+    }
+    .video h2 {
+        margin: auto;
+    }
+    .video p {
+        width: 100%;
+        margin: auto;
+    }
+    .mobile {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 1200px;
+    }
+    .mobile img {
+        width: 100%;
+        margin: auto;
+        display: block;
+        float: left;
+    }
+    .mobiletext {
+        width: 100%;
+        margin: auto;
+    }
+    .mobiletext h2 {
+        margin-top: 600px;
+    }
+    .mobiletext ul {
+        margin-left: 30px;
+        width: 100%;
+    }
+    .achievements {
+        width: 100%;
+        margin: auto;
+    }
+    .achievements .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .posts {
+        width: 100%;
+        margin: auto;
+    }
+    .posts p {
+        margin: auto;
+        width: 100%;
+    }
+    .postsexamples .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .partners {
+        margin: auto;
+        width: 100%;
+    }
+    .partners .flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .partners .flex-container a {
+        margin-bottom: 20px;
+    }
+    .footer {
+        width: 100%;
+        margin: auto;
+    }
+    .footerup {
+        width: 100%;
+        padding-bottom: 1800px;
+    }
+    .compinfo {
+        width: 100%;
+        margin: auto;
+    }
+    .logo2 {
+        margin-left: 30px;
+    }
+    .compinfo p {
+        margin-left: 30px;
+    }
+    .more a {
+        margin-left: 30px;
+    }
+    .recentposts {
+        width: 100%;
+        margin: auto;
+    }
+    .recentposts h3 {
+        margin-left: 30px;
+    }
+    .footerposts {
+        margin-left: 30px;
+    }
+    .bottom {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 200px;
+    }
+    .bottommenu p {
+        width: 100%;
+        margin: auto;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+    .bottommenu ul {
+        width: 100%;
+        margin: auto;
+    }
+    .widget {
+        width: 90%;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .twit {
+        width: 80%;
+    }
+    .footerposts {
+        width: 80%;
     }
 }
